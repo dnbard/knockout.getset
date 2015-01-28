@@ -1,0 +1,20 @@
+{
+  "name": "knockout.getset",
+  "version": "1.0.0",
+  "description": "New way to bind observables for Knockout",
+  "main": "ko.getset.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "knockout",
+    "knockoutjs"
+  ],
+  "author": "Alex Bardanov",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "chai": "^1.10.0",
+    "knockout": "^3.2.0"
+  }
+}
