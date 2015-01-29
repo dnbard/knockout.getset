@@ -1,0 +1,22 @@
+{
+  "name": "knockout-getset",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dnbard/knockout.getset",
+  "authors": [
+    "Alex Bardanov <dnbard@gmail.com>"
+  ],
+  "description": "New way to bind observables for Knockout",
+  "main": "ko.getset.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "knockout",
+    "knockoutjs",
+    "observable",
+    "binding"
+  ],
+  "license": "MIT"
+}

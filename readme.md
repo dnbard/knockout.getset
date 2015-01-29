@@ -7,7 +7,7 @@ Simple library to start using `this.property = true;` instead of `this.property(
 Install from `bower`:
 
 ```bash
-bower install knockout.getset --save
+bower install knockout-getset --save
 ```
 
 or `npm`:
