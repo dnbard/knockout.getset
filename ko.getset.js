@@ -107,7 +107,7 @@
         return kovar;
     }
 
-    exports.gsObservable = gsObservable;
-    exports.gsComputed = gsComputed;
-    exports.gsObservableArray = gsObservableArray;
+    ko.gsObservable      = exports.gsObservable      = gsObservable;
+    ko.gsComputed        = exports.gsComputed        = gsComputed;
+    ko.gsObservableArray = exports.gsObservableArray = gsObservableArray;
 }));
