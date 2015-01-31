@@ -13,7 +13,7 @@
     }
 }(function (ko, exports) {
     function gsObservable(object, key, initValue){
-        initValue = initValue || null;
+        initValue = initValue === 'undefined' ? null : initValue;
 
         if (typeof object !== 'object'){
             throw new Error('Invalid argument: parent object must be set');
@@ -78,7 +78,7 @@
     }
 
     function gsObservableArray(object, key, initValue){
-        initValue = initValue || [];
+        initValue = initValue === 'undefined' ? [] : initValue;
 
         if (typeof object !== 'object'){
             throw new Error('Invalid argument: parent object must be set');
