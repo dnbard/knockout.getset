@@ -1,6 +1,6 @@
 {
   "name": "knockout.getset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "New way to bind observables for Knockout",
   "main": "ko.getset.js",
   "scripts": {
